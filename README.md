@@ -15,8 +15,8 @@ pip install git+https://github.com/facebookresearch/segment-anything.git
 ```
 #### 환경설치:labelimg
 ```
-conda install pyqt=5
-conda install -c anaconda lxml
+pip install PyQt5
+pip install lxml
 pyrcc5 -o libs/resources.py resources.qrc
 python labelImg.py
 ```
