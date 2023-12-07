@@ -19,7 +19,6 @@ pip install opencv-python pycocotools matplotlib onnxruntime onnx
 pip install PyQt5
 pip install lxml
 pyrcc5 -o libs/resources.py resources.qrc
-python labelImg.py
 ```
 ### SAM model
 이 부분 다운받은 모델 별로 설정 해주셔야 합니다.
