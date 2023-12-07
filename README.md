@@ -12,6 +12,7 @@ AI 학습 데이터 셋을 조금더 쉽게 만들기 위해서 이 프로젝트
 #### 환경설치:SAM
 ```
 pip install git+https://github.com/facebookresearch/segment-anything.git
+pip install opencv-python pycocotools matplotlib onnxruntime onnx
 ```
 #### 환경설치:labelimg
 ```
