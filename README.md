@@ -5,6 +5,8 @@ labelimg 수정본입니다.
 ---
 - `파이썬 >= 3.8`
 - `pytorch>=1.7`
+
+[pytorch](https://pytorch.org/get-started/locally/) 설치하러 가기
 ---
 #### 환경설치:SAM
 ---
