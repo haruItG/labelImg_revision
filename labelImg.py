@@ -1460,6 +1460,8 @@ class MainWindow(QMainWindow, WindowMixin):
     def predict_sam(self):
         image_path = self.m_img_list[self.cur_img_idx]
         points ,labels = self.canvas.getItemsFromListWidget(self.SAM_list_container)
+        self.canvas.set_editing()
+        self.SAM_list_container.clear()
         points_list = []
         for point in points:
             points_list.append([int(point.points.x()),int(point.points.y())])
@@ -1471,8 +1473,7 @@ class MainWindow(QMainWindow, WindowMixin):
         shape.add_point(QPointF(x, y+h))
         self.canvas.current = shape
         self.canvas.finalise()
-        self.canvas.set_editing()
-        self.SAM_list_container.clear()
+        
 
 #################################################
     # def set_red_SAM(self):
