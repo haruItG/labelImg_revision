@@ -32,7 +32,7 @@ self.sam = SA(model_name="vit_b", model_path="sam_vit_b_01ec64.pth")
 ### 단축키
 | 단축키 | 설명 |
 | :--: | :--: |
-| Shift | SAM 추론 진행 |
+| Shift + Space bar | SAM 추론 진행 |
 | Enter | 옮길 폴더로 옮기기 |
 
 ### SAM 추론 방법
