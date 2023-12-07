@@ -43,6 +43,6 @@ self.sam = SA(model_name="vit_b", model_path="sam_vit_b_01ec64.pth")
 
 
 ### Reference
-[labelimg](https://github.com/HumanSignal/labelImg)
-[AutoLabel](https://github.com/qpal147147/AutoLabel)
-[segment-anything](https://github.com/facebookresearch/segment-anything)
+- [labelimg](https://github.com/HumanSignal/labelImg)
+- [AutoLabel](https://github.com/qpal147147/AutoLabel)
+- [segment-anything](https://github.com/facebookresearch/segment-anything)
