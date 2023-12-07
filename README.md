@@ -2,19 +2,15 @@ labelimg 수정본입니다.
 원본 코드는 [출처](https://github.com/HumanSignal/labelImg) 입니다
 
 ### 환경설치
----
 - `파이썬 >= 3.8`
 - `pytorch>=1.7`
 
 [pytorch](https://pytorch.org/get-started/locally/) 설치하러 가기
----
 #### 환경설치:SAM
----
 ```
 pip install git+https://github.com/facebookresearch/segment-anything.git
 ```
 #### 환경설치:labelimg
----
 ```
 conda install pyqt=5
 conda install -c anaconda lxml
@@ -22,7 +18,6 @@ pyrcc5 -o libs/resources.py resources.qrc
 python labelImg.py
 ```
 ### SAM model
----
 이 부분 다운받은 모델 별로 설정 해주셔야 합니다.
 ```python
 self.sam = SA(model_name="vit_b", model_path="sam_vit_b_01ec64.pth")
@@ -48,7 +43,6 @@ self.sam = SA(model_name="vit_b", model_path="sam_vit_b_01ec64.pth")
 
 
 ### Reference
----
 [labelimg](https://github.com/HumanSignal/labelImg)
 [AutoLabel](https://github.com/qpal147147/AutoLabel)
 [segment-anything](https://github.com/facebookresearch/segment-anything)
