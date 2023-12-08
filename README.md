@@ -9,6 +9,7 @@ AI 학습 데이터 셋을 조금더 쉽게 만들기 위해서 이 프로젝트
 - `pytorch>=1.7`
 
 [pytorch](https://pytorch.org/get-started/locally/) 설치하러 가기
+※웬만하면 GPU 사용을 권장합니다
 #### 환경설치:SAM
 ```
 pip install git+https://github.com/facebookresearch/segment-anything.git
