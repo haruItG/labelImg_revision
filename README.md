@@ -23,6 +23,10 @@ pyrcc5 -o libs/resources.py resources.qrc
 ### SAM model
 이 부분 다운받은 모델 별로 설정 해주셔야 합니다.
 ```python
+self.sam = SA(model_name="모델 유형", model_path="모델경로")
+```
+- 기본 예시
+``` python
 self.sam = SA(model_name="vit_b", model_path="sam_vit_b_01ec64.pth")
 ```
 
@@ -43,6 +47,10 @@ self.sam = SA(model_name="vit_b", model_path="sam_vit_b_01ec64.pth")
 - Shift + Space 를 누르면 즉시 추론을 진행한다.
   - 이때 추론 진행되는동안 잠시 프로그램이 멈춘다.
 - 이때 부터는 [labelimg](https://github.com/HumanSignal/labelImg)사용방법과 동일하다.
+
+### SAM 데이터 삭제
+  - 빨강색, 초록색 점을 삭제하는 방법을 말함
+  - 왼쪽 하단에보면 SAM 리스트에서 삭제할 아이템 더블클릭시 삭제 진행
 
 
 ### Reference
