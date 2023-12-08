@@ -46,13 +46,11 @@ self.sam = SA(model_name="vit_b", model_path="sam_vit_b_01ec64.pth")
 - Q키를 눌러서 SAM 모드로 진입한다
 - 마우스 오른쪽 클릭시 초록색 원이 생성된다
 - 마우스 왼쪽 클릭시 빨강색 원이 생성된다
+  - 왼쪽 하단에 SAM 리스트 아이템 더블 클릭시 원 삭제
 - Shift + Space 를 누르면 즉시 추론을 진행한다.
   - 이때 추론 진행되는동안 잠시 프로그램이 멈춘다.
 - 이때 부터는 [labelimg](https://github.com/HumanSignal/labelImg)사용방법과 동일하다.
 
-### SAM 데이터 삭제
-  - 빨강색, 초록색 점을 삭제하는 방법을 말함
-  - 왼쪽 하단에보면 SAM 리스트에서 삭제할 아이템 더블클릭시 삭제 진행
 
 
 ### Reference
