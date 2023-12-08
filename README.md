@@ -49,6 +49,7 @@ self.sam = SA(model_name="vit_b", model_path="sam_vit_b_01ec64.pth")
   - 왼쪽 하단에 SAM 리스트 아이템 더블 클릭시 원 삭제
 - Shift + Space 를 누르면 즉시 추론을 진행한다.
   - 이때 추론 진행되는동안 잠시 프로그램이 멈춘다.
+- 라벨링 박스가 생성된다
 - 이때 부터는 [labelimg](https://github.com/HumanSignal/labelImg)사용방법과 동일하다.
 
 
