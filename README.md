@@ -25,14 +25,16 @@ pyrcc5 -o libs/resources.py resources.qrc
 ```python
 self.sam = SA(model_name="모델 유형", model_path="모델경로")
 ```
-- 기본 예시
+#### 기본 예시
 ``` python
 self.sam = SA(model_name="vit_b", model_path="sam_vit_b_01ec64.pth")
 ```
-
-- **`default` or `vit_h`: [ViT-H SAM model.](https://dl.fbaipublicfiles.com/segment_anything/sam_vit_h_4b8939.pth)**
-- `vit_l`: [ViT-L SAM model.](https://dl.fbaipublicfiles.com/segment_anything/sam_vit_l_0b3195.pth)
-- `vit_b`: [ViT-B SAM model.](https://dl.fbaipublicfiles.com/segment_anything/sam_vit_b_01ec64.pth)
+#### SAM 모델 종류
+| 모델 유형 | 다운로드 링크 |
+| :--: | :--: |
+| vit_h | [ViT-H SAM model.](https://dl.fbaipublicfiles.com/segment_anything/sam_vit_h_4b8939.pth) |
+| vit_l | [ViT-L SAM model.](https://dl.fbaipublicfiles.com/segment_anything/sam_vit_l_0b3195.pth) |
+| vit_b | [ViT-B SAM model.](https://dl.fbaipublicfiles.com/segment_anything/sam_vit_b_01ec64.pth) |
 ### 단축키
 | 단축키 | 설명 |
 | :--: | :--: |
