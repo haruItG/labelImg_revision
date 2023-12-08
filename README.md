@@ -21,7 +21,8 @@ pip install lxml
 pyrcc5 -o libs/resources.py resources.qrc
 ```
 ### SAM model
-[여기](https://github.com/qpal147147/AutoLabel/blob/main/autoLabel.py#L24) 다운받은 모델 별로 설정 해주셔야 합니다.
+https://github.com/haruItG/labelImg_revision/blob/main/labelImg.py
+[여기]([https://github.com/haruItG/labelImg_revision/blob/main/labelImg.py#L24) 다운받은 모델 별로 설정 해주셔야 합니다.
 ```python
 self.sam = SA(model_name="모델 유형", model_path="모델경로")
 ```
