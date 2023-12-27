@@ -55,6 +55,7 @@ self.sam = SA(model_name="vit_b", model_path="sam_vit_b_01ec64.pth")
 
 
 ![SAM 추론 모습](https://github.com/haruItG/labelImg_revision/blob/main/study/ezgif.com-resize.gif)
+
 단축키 Shift + Space bar 버튼을 사용했습니다.
 ### Reference
 - [labelimg](https://github.com/HumanSignal/labelImg)
