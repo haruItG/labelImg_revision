@@ -39,9 +39,9 @@ Path=C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\bin;C:\Program Fil
 
 호환버전확인 하러가기[클릭](https://docs.nvidia.com/deeplearning/cudnn/support-matrix/index.html)
 
-CUDA Tookit 11.8버전이랑 호환되는 cuDNN버전은 8.9.4 확인
-cuDNN 8.9.4는 Compute Compatibility=7.5와 호환되는 것 확인
-cuDNN 8.9.4와 호환되는 드라이버 >=450.80.82 만족하는 것 확인
+- CUDA Tookit 11.8버전이랑 호환되는 cuDNN버전은 8.9.4 확인
+- cuDNN 8.9.4는 Compute Compatibility=7.5와 호환되는 것 확인
+- cuDNN 8.9.4와 호환되는 드라이버 >=450.80.82 만족하는 것 확인
 
 [cuDNN 다운로드](https://developer.nvidia.com/rdp/cudnn-download)
 
