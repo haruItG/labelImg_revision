@@ -6,8 +6,8 @@
 # CUDAToolKit
 [다운로드](https://developer.nvidia.com/cuda-downloads) 
 
-이곳에서 다운받을경우 최신 버전이 다운받아진다. 11.8버전을 다운받아야 하므로 [old 버전 다운받기](https://github.com/haruItG/labelImg_revision/edit/main/study/make_env.md#22) 버전 여기서 다운받았다.
-
+이곳에서 다운받을경우 최신 버전이 다운받아진다. 11.8버전을 다운받아야 하므로 [old 버전 다운받기](https://github.com/haruItG/labelImg_revision/blob/main/study/make_env.md#22) 버전 여기서 다운받았다.
+https://github.com/haruItG/labelImg_revision/blob/main/study/make_env.md
 >독자는 윈도우 11환경에서 사용하기에 아래 옵션을 사용했다. 각자 맞는 환경을 선택해서 다운로드 받으면된다.
 
 CUDA Toolkit 11.8 설치하자.(RTX 4080 기준)
